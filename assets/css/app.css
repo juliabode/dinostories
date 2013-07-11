@@ -1,0 +1,176 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+	background: #f5f5f5;
+	font: normal 14px/22px Arial,Helvetica,sans-serif;
+}
+
+h2 {
+  font-size: 14px;
+  margin: 0;
+  line-height: 22px;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+.banner { }
+
+.menu-buddy-bears { background-color: #f8bf52; }
+.menu-hike { background-color: #fb8233; }
+.menu-bike { background-color: #f5632e; }
+.menu-tours { background-color: #db2f43; }
+.menu-food { background-color: #6c3e62; }
+.menu-feasts { background-color: #484173; }
+.menu-nature { background-color: #277acf; }
+.menu-traditions { background-color: #278286; }
+.menu-galleries { background-color: #43ac78; }
+
+a { text-decoration: none; }
+
+nav.top-nav {
+	padding: 10px 0;
+	background: #dfdfdf;
+}
+
+nav.top-nav li {
+	color: #666;
+}
+
+nav {
+	overflow: hidden;
+	padding-left: 20px;
+}
+
+nav li, nav li a {
+	float: left;
+	width: 111px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 24px;
+	line-height: 70px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+.post-container {
+  position: relative;
+}
+
+article.category-hike { border-top: 4px solid #fb8233; }
+article.category-bike { border-top: 4px solid #f5632e; }
+article.category-tours { border-top: 4px solid #db2f43; }
+article.category-food { border-top: 4px solid #6c3e62; }
+article.category-feasts { border-top: 4px solid #484173; }
+article.category-nature { border-top: 4px solid #277acf; }
+article.category-traditions { border-top: 4px solid #278286; }
+article.category-galleries { border-top: 4px solid #43ac78; }
+
+article.category-hike header h2 { background: rgba(251, 130, 51, 0.7); }
+article.category-bike header h2 { background: rgba(245, 99, 46, 0.7); }
+article.category-tours header h2 { background: rgba(219, 47, 67, 0.7); }
+article.category-food header h2 { background: rgba(108, 62, 98, 0.7); }
+article.category-feasts header h2 { background: rgba(72, 65, 115, 0.7); }
+article.category-nature header h2 { background: rgba(39, 122, 207, 0.7); }
+article.category-traditions header h2 { background: rgba(39, 130, 134, 0.7); }
+article.category-galleries header h2 { background: rgba(67, 172, 120, 0.7); }
+
+article header {
+  position: relative;
+}
+
+article header h2.entry-title {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+}
+
+article.post {
+	position: absolute;
+	background: #ffffff;
+	width: 320px;
+}
+
+article.post img {
+	display: block;
+  width: 320px;
+}
+
+article.post .entry-summary {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+article.post header h2 { width: 310px; }
+
+article.post header h2 a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+
+
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 767px) {
+
+}
