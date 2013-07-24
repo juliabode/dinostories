@@ -13,8 +13,6 @@
     }
   ?>
 
-  <?php echo do_shortcode( '[responsive_slider]' ); ?>
-
   <div class="wrap container" role="document">
     <div class="content row">
       <div class="main <?php echo roots_main_class(); ?>" role="main">

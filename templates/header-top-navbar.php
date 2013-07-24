@@ -20,6 +20,8 @@
   </div>
 </header>
 
+<?php if (is_front_page()) echo do_shortcode( '[responsive_slider]' ); ?>
+
 <div class="container">
   <nav class="nav-main" role="navigation">
     <?php
