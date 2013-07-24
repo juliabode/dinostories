@@ -3,8 +3,12 @@
    ========================================================================== */
 
 body {
-	background: #f5f5f5;
-	font: normal 14px/22px Arial,Helvetica,sans-serif;
+  background: #f5f5f5;
+  font: normal 14px/22px Arial,Helvetica,sans-serif;
+}
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+  width: 1020px;
 }
 
 h2 {
@@ -13,11 +17,33 @@ h2 {
   line-height: 22px;
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+}
+
 /* =============================================================================
    Header
    ========================================================================== */
 
-.banner { }
+.banner {
+  padding: 10px 0;
+  background-color: #DFDFDF;
+}
+
+.navbar .brand {
+  background: url(../img/logo.png) center center no-repeat;
+  font-family: 'Grand Hotel', cursive;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 70px;
+  color: #333;
+  float: left;
+  text-indent: -9999px;
+  width: 250px;
+  height: 70px;
+  padding: 0 40px;
+}
 
 .menu-buddy-bears { background-color: #f8bf52; }
 .menu-hike { background-color: #fb8233; }
@@ -32,28 +58,50 @@ h2 {
 a { text-decoration: none; }
 
 nav.top-nav {
-	padding: 10px 0;
-	background: #dfdfdf;
+  padding: 10px 0;
+  background: #dfdfdf;
 }
 
 nav.top-nav li {
-	color: #666;
+  color: #666;
 }
 
 nav {
-	overflow: hidden;
-	padding-left: 20px;
+  overflow: hidden;
+  padding-left: 20px;
 }
 
 nav li, nav li a {
-	float: left;
-	width: 111px;
-	font-family: 'Pathway Gothic One', sans-serif;
-	font-size: 24px;
-	line-height: 70px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #fff;
+  float: left;
+  width: 111px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 24px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.banner .nav li a {
+  text-shadow: none;
+  padding: 0;
+  line-height: 70px;
+  margin: 0;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  border: none;
 }
 
 /* ==========================================================================
@@ -61,6 +109,14 @@ nav li, nav li a {
    ========================================================================== */
 
 .content { }
+
+.slider, .slides {
+position: relative;
+min-width: 1024px;
+margin-bottom: 0;
+height: 400px;
+overflow: hidden;
+}
 
 .post-container {
   position: relative;
@@ -95,13 +151,13 @@ article header h2.entry-title {
 }
 
 article.post {
-	position: absolute;
-	background: #ffffff;
-	width: 320px;
+  position: absolute;
+  background: #ffffff;
+  width: 320px;
 }
 
 article.post img {
-	display: block;
+  display: block;
   width: 320px;
 }
 
