@@ -51,7 +51,7 @@ h3 {
   padding: 0 40px;
 }
 
-.menu-buddy-bears { background-color: #f8bf52; }
+.menu-thoughts { background-color: #f8bf52; }
 .menu-hike { background-color: #fb8233; }
 .menu-bike { background-color: #f5632e; }
 .menu-tours { background-color: #db2f43; }
@@ -59,7 +59,7 @@ h3 {
 .menu-feasts { background-color: #484173; }
 .menu-nature { background-color: #277acf; }
 .menu-traditions { background-color: #278286; }
-.menu-galleries { background-color: #43ac78; }
+.menu-collections { background-color: #43ac78; }
 
 a { text-decoration: none; }
 
@@ -146,8 +146,9 @@ article.overview.category-food { border-top: 4px solid #6c3e62; }
 article.overview.category-feasts { border-top: 4px solid #484173; }
 article.overview.category-nature { border-top: 4px solid #277acf; }
 article.overview.category-traditions { border-top: 4px solid #278286; }
-article.overview.category-galleries { border-top: 4px solid #43ac78; }
+article.overview.category-collections { border-top: 4px solid #43ac78; }
 
+article.overview.category-thoughts header h2 { background: rgba(248, 191, 82, 0.7); }
 article.overview.category-hike header h2 { background: rgba(251, 130, 51, 0.7); }
 article.overview.category-bike header h2 { background: rgba(245, 99, 46, 0.7); }
 article.overview.category-tours header h2 { background: rgba(219, 47, 67, 0.7); }
@@ -155,7 +156,7 @@ article.overview.category-food header h2 { background: rgba(108, 62, 98, 0.7); }
 article.overview.category-feasts header h2 { background: rgba(72, 65, 115, 0.7); }
 article.overview.category-nature header h2 { background: rgba(39, 122, 207, 0.7); }
 article.overview.category-traditions header h2 { background: rgba(39, 130, 134, 0.7); }
-article.overview.category-galleries header h2 { background: rgba(67, 172, 120, 0.7); }
+article.overview.category-collections header h2 { background: rgba(67, 172, 120, 0.7); }
 
 article header {
   position: relative;
@@ -208,6 +209,7 @@ article.overview.post header h2 a {
 	font-weight: normal;
 }
 
+article.category-thoughts h1, .article.category-hike .entry-summary a { color: #f8bf52; }
 article.category-hike h1, .article.category-hike .entry-summary a { color: #fb8233; }
 article.category-bike h1, article.category-bike  .entry-summary a { color: #f5632e; }
 article.category-tours h1, article.category-tours  .entry-summary a { color: #db2f43; }
